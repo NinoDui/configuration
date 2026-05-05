@@ -85,6 +85,7 @@ if !has('gui_running')
     colorscheme dracula
     set timeoutlen=1000 ttimeoutlen=0
 else
+    set guifont=Monaco:h14,Consolas:h14
     if strftime('%H') >= 21 || strftime('%H') < 9
         set background=dark
     else

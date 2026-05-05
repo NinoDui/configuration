@@ -1,5 +1,5 @@
 # appearance
-font-family = "consolas"
+font-family = "Consolas"
 font-size = 14
 theme = Catppuccin Macchiato
 term = xterm-256color
