@@ -1,0 +1,23 @@
+# appearance
+font-family = "consolas"
+font-size = 14
+theme = Catppuccin Macchiato
+term = xterm-256color
+
+# --- Window Management ---
+fullscreen = true
+window-padding-x = 10
+window-padding-y = 10
+confirm-close-surface = false
+window-decoration = auto 
+
+# --- Behavior Control ---
+scrollback-limit = 1000
+clipboard-trim-trailing-spaces = true
+clipboard-paste-protection = true
+link-url = true
+
+# --- Key Bind ---
+keybind = ctrl+p=unbind
+keybind = ctrl+t=unbind
+
