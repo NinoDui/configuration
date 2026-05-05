@@ -97,6 +97,9 @@ endif
 
 " Latex preview
 let g:livepreview_engine='xelatex'
+if has('mac') || has('macunix')
+    let g:livepreview_previewer='open -a Skim'
+endif
 
 " Syntastic
 set statusline+=%#warningmsg#
